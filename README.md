@@ -1,41 +1,38 @@
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           R _ V I E R A                              -->
-<!--                     github.com/rviers • est. 2026                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- AETHER DESIGN ACADEMY — Auto-generated daily by Aether            -->
+<!-- Theme: Poimandres | Principle: Dark Luxe — Depth Through Shadow              -->
+<!-- Day 222 of 2026 | Generated: 2026-08-11T08:38:23.688Z -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ─── ANIMATED HEADER ─── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:414868&height=220&section=header&text=R_Viera&fontSize=72&fontColor=a9b1d6&fontAlignY=35&desc=Systems%20Architect%20%E2%80%A2%20Security%20Researcher%20%E2%80%A2%20AI%20Engineer&descSize=16&descColor=565f89&descAlignY=55&animation=fadeIn" width="100%" alt="Header" />
-
-<!-- ─── TAGLINE ─── -->
-<br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=C0CAF5&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=45&lines=Building+systems+that+think+for+themselves;Automating+what+others+do+manually;Security+is+not+a+feature+—+it's+the+architecture;Crafting+digital+infrastructure+with+precision)](https://git.io/typing-svg)
+<!-- ─── HEADER ─── -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1b1e28,50:252837,100:303340&height=220&section=header&text=R_Viera&fontSize=72&fontColor=e4f0fb&fontAlignY=35&desc=Deep%20Systems%20Engineer%20%E2%80%A2%20Cryptography%20Researcher%20%E2%80%A2%20AI%20Architect&descSize=16&descColor=767c9d&descAlignY=55&animation=fadeIn" width="100%" alt="Header"/>
 
 <br/>
 
-<!-- ─── QUICK BADGES ─── -->
-<a href="https://github.com/rviers"><img src="https://img.shields.io/badge/Portfolio-rviers-1a1b27?style=for-the-badge&logo=github&logoColor=a9b1d6&labelColor=24283b" alt="GitHub"/></a>
-<img src="https://komarev.com/ghpvc/?username=rviers&label=Visitors&color=414868&style=for-the-badge&labelColor=24283b" alt="Profile Views"/>
+<!-- ─── TYPING SVG ─── -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=E4F0FB&center=true&vCenter=true&repeat=true&width=600&height=45&lines=Deep%20systems%20require%20deep%20thinking;The%20void%20isn't%20empty%20%E2%80%94%20it's%20full%20of%20structure;Shadow%20engineering%20for%20luminous%20results)](https://github.com/rviers)
+
+<br/>
+
+<!-- ─── BADGES ─── -->
+<a href="https://github.com/rviers"><img src="https://img.shields.io/badge/Portfolio-rviers-1b1e28?style=for-the-badge&logo=github&logoColor=e4f0fb&labelColor=252837" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=rviers&label=Visitors&color=303340&style=for-the-badge&labelColor=252837" alt="Views"/>
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                        AETHER LOG WIDGET                              -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ AETHER LOG ═══════════════════ -->
 
 <div align="center">
-  <img src="aether-status.svg" width="800" alt="Aether System Log — Auto-updated nightly"/>
+  <img src="aether-status.svg" width="800" alt="Aether System Log"/>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           ABOUT ME                                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ ABOUT ═══════════════════ -->
 
 ## `▸ whoami`
 
@@ -49,15 +46,29 @@ focus:
   - Full-Stack Systems Engineering
   - Cloud Infrastructure & DevSecOps
 
-current_project: "Aether — My personal AI assistant framework"
-philosophy: "Automate the boring. Secure the critical. Build what matters."
+current_project: "Aether — my personal AI assistant framework"
+today_learning: "Dark Luxe — Depth Through Shadow"
 ```
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           TECH STACK                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ DESIGN LESSON ═══════════════════ -->
+
+<details>
+<summary>🎨 <b>Today's Design Lesson: Dark Luxe — Depth Through Shadow</b></summary>
+<br/>
+
+> Named after the Hermetic text. Ultra-dark base (< 12% L) with cool purple undertones. The lesson: true luxury in dark themes comes from subtle color in the shadows, not from bright accents. The near-invisible gradient from bg to surface creates dimensionality that flat black cannot achieve.
+
+**Theme:** `Poimandres` — Palette: `#1b1e28` `#252837` `#303340` `#add7ff` `#91b4d5`
+
+*This profile rotates through 30 design themes, each teaching a different color theory principle. Powered by [Aether](https://github.com/rviers/rviers).*
+
+</details>
+
+<br/>
+
+<!-- ═══════════════════ TECH STACK ═══════════════════ -->
 
 ## `▸ tech --stack`
 
@@ -92,45 +103,32 @@ philosophy: "Automate the boring. Secure the critical. Build what matters."
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                        GITHUB ANALYTICS                               -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
 
 ## `▸ git stats`
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rviers&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=c0caf5&text_color=a9b1d6&icon_color=bb9af7&ring_color=7aa2f7&border_radius=12&include_all_commits=true&count_private=true"/>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=rviers&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27"/>
-  </picture>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=1b1e28&title_color=e4f0fb&text_color=767c9d&icon_color=91b4d5&ring_color=add7ff&border_radius=12&include_all_commits=true&count_private=true"/>
   &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=rviers&theme=tokyonight&hide_border=true&background=1a1b27&ring=7aa2f7&fire=ff9e64&currStreakLabel=c0caf5&sideLabels=a9b1d6&dates=565f89&border_radius=12"/>
-    <img height="180" src="https://streak-stats.demolab.com?user=rviers&theme=tokyonight&hide_border=true&background=1a1b27"/>
-  </picture>
+  <img height="180" src="https://streak-stats.demolab.com?user=rviers&hide_border=true&background=1b1e28&ring=add7ff&fire=fffac2&currStreakLabel=e4f0fb&sideLabels=767c9d&dates=767c9d&border_radius=12"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rviers&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=c0caf5&text_color=a9b1d6&border_radius=12&langs_count=8"/>
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rviers&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27"/>
-  </picture>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rviers&layout=compact&hide_border=true&bg_color=1b1e28&title_color=e4f0fb&text_color=767c9d&border_radius=12&langs_count=8"/>
 </div>
 
 <br/>
 
 <!-- ─── TROPHIES ─── -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rviers&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=rviers&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                      CONTRIBUTION SNAKE                               -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
 
 ## `▸ contributions`
 
@@ -144,30 +142,26 @@ philosophy: "Automate the boring. Secure the critical. Build what matters."
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                       ACTIVITY GRAPH                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ ACTIVITY GRAPH ═══════════════════ -->
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rviers&bg_color=1a1b27&color=a9b1d6&line=7aa2f7&point=bb9af7&area=true&area_color=414868&hide_border=true&custom_title=Commit%20Timeline&radius=12" width="95%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rviers&bg_color=1b1e28&color=767c9d&line=add7ff&point=91b4d5&area=true&area_color=303340&hide_border=true&custom_title=Commit%20Timeline&radius=12" width="95%" alt="Activity Graph"/>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           FOOTER                                      -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:414868,50:24283b,100:1a1b27&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:303340,50:252837,100:1b1e28&height=120&section=footer" width="100%"/>
 
 <br/>
 
 ```
-"The best systems are the ones you never notice — until they save you."
+"The deepest architecture is the one you sense but cannot see."
 ```
 
-<sub>This profile is autonomously maintained by <b>Aether</b> — my personal AI assistant framework.</sub>
+<sub>🎨 Today's theme: <b>Poimandres</b> — Dark Luxe — Depth Through Shadow · Autonomously maintained by <b>Aether</b></sub>
 
 </div>

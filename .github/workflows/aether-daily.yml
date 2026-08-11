@@ -1,0 +1,41 @@
+name: Aether Daily Design Rotation
+
+on:
+  schedule:
+    # Runs at 13:00 UTC = 20:00 WIB (8 PM Jakarta time)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+jobs:
+  rotate-theme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate Themed Profile
+        run: node generate_profile.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Aether Design Academy"
+          git add README.md aether-status.svg design_evolution.md
+          git diff --quiet && git diff --staged --quiet || (
+            THEME_NAME=$(node -e "
+              import('./themes.js').then(m => {
+                const d = Math.floor((Date.now() - new Date(Date.UTC(new Date().getUTCFullYear(),0,1)))/86400000);
+                console.log(m.themes[d % m.themes.length].name);
+              });
+            ")
+            git commit -m "🎨 design(aether): rotate to ${THEME_NAME}" &&
+            git push
+          )

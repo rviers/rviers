@@ -2,89 +2,57 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Inter:wght@400;600;700&amp;display=swap');
-
-      .card-bg { fill: #1a1b27; }
-      .card-border { stroke: #24283b; stroke-width: 1; }
-      .card-inner { fill: #24283b; }
-      .card-inner-border { stroke: #414868; stroke-width: 0.5; }
-
-      .heading { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 13px; fill: #c0caf5; letter-spacing: 3px; text-transform: uppercase; }
-      .sub { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 10px; fill: #565f89; letter-spacing: 1.5px; }
-      .date { font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 10px; fill: #565f89; }
-
+      .card-bg { fill: #1b1e28; }
+      .card-border { stroke: #252837; stroke-width: 1; }
+      .card-inner { fill: #252837; }
+      .card-inner-border { stroke: #303340; stroke-width: 0.5; }
+      .heading { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 13px; fill: #e4f0fb; letter-spacing: 3px; }
+      .sub { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 10px; fill: #767c9d; letter-spacing: 1.5px; }
+      .date { font-family: 'JetBrains Mono', monospace; font-weight: 400; font-size: 10px; fill: #767c9d; }
       .mono { font-family: 'JetBrains Mono', monospace; font-size: 12.5px; }
-      .prompt { fill: #bb9af7; }
-      .label { fill: #565f89; }
-      .value { fill: #a9b1d6; }
-      .highlight { fill: #7aa2f7; }
-      .msg { fill: #9ece6a; }
-
-      .dot-red { fill: #f7768e; }
-      .dot-amber { fill: #e0af68; }
-      .dot-green { fill: #9ece6a; }
-
-      .status-glow { fill: #9ece6a; }
+      .prompt { fill: #91b4d5; }
+      .label { fill: #767c9d; }
+      .value { fill: #e4f0fb; }
+      .highlight { fill: #add7ff; }
+      .msg { fill: #5de4c7; }
+      .dot-red { fill: #d0679d; }
+      .dot-amber { fill: #fffac2; }
+      .dot-green { fill: #5de4c7; }
+      .status-glow { fill: #5de4c7; }
       .pulse { animation: pulse 3s ease-in-out infinite; }
-      @keyframes pulse {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 0.2; }
-      }
-
-      .line-accent { stroke: #414868; stroke-width: 0.5; }
+      @keyframes pulse { 0%, 100% { opacity: 0.8; } 50% { opacity: 0.2; } }
     </style>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7aa2f7" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#7aa2f7" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#bb9af7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#add7ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#add7ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#91b4d5" stop-opacity="0"/>
     </linearGradient>
     <filter id="soft-glow">
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-
-  <!-- Outer Card -->
   <rect width="838" height="218" x="1" y="1" rx="12" class="card-bg card-border"/>
-
-  <!-- Accent line at top -->
   <line x1="40" y1="1" x2="800" y2="1" stroke="url(#accent-line)" stroke-width="2"/>
-
-  <!-- Header Row -->
   <text x="32" y="38" class="heading">AETHER</text>
   <text x="105" y="38" class="sub" style="letter-spacing: 2px;">SYSTEM LOG</text>
-  <text x="808" y="38" class="date" text-anchor="end">2026-08-11 08:21:00 UTC</text>
-
-  <!-- Status Indicator -->
+  <text x="808" y="38" class="date" text-anchor="end">2026-08-11 08:38:23 UTC</text>
   <circle cx="780" cy="33" r="3" class="status-glow pulse" filter="url(#soft-glow)"/>
   <circle cx="780" cy="33" r="3" class="status-glow"/>
-
-  <!-- Divider -->
-  <line x1="32" y1="52" x2="808" y2="52" class="line-accent"/>
-
-  <!-- Terminal Window -->
+  <line x1="32" y1="52" x2="808" y2="52" stroke="#303340" stroke-width="0.5"/>
   <rect width="776" height="140" x="32" y="64" rx="8" class="card-inner card-inner-border"/>
-
-  <!-- Window Controls -->
   <circle cx="52" cy="82" r="4" class="dot-red"/>
   <circle cx="66" cy="82" r="4" class="dot-amber"/>
   <circle cx="80" cy="82" r="4" class="dot-green"/>
   <text x="100" y="86" class="mono label" style="font-size: 10px;">~/aether</text>
-
-  <!-- Line 1: Target -->
   <text x="52" y="118" class="mono prompt">λ</text>
   <text x="70" y="118" class="mono label">target</text>
-  <text x="118" y="118" class="mono highlight">unknown</text>
-
-  <!-- Line 2: Status -->
+  <text x="118" y="118" class="mono highlight">rviers</text>
   <text x="52" y="142" class="mono prompt">λ</text>
   <text x="70" y="142" class="mono label">status</text>
   <text x="118" y="142" class="mono value">decrypting latest transmission...</text>
-
-  <!-- Line 3: Commit Message -->
   <text x="52" y="166" class="mono prompt">λ</text>
   <text x="70" y="166" class="mono label">log</text>
-  <text x="100" y="166" class="mono msg">"Compiling thoughts..."</text>
-
-  <!-- Bottom accent line -->
+  <text x="100" y="166" class="mono msg">"Routine systems update"</text>
   <line x1="40" y1="217" x2="800" y2="217" stroke="url(#accent-line)" stroke-width="1"/>
 </svg>

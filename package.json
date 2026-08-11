@@ -1,12 +1,13 @@
 {
   "name": "rviers",
-  "version": "1.0.0",
-  "description": "Dynamic GitHub Profile README",
-  "main": "update_status.js",
+  "version": "2.0.0",
+  "description": "Dynamic GitHub Profile — Aether Design Academy",
   "type": "module",
   "scripts": {
-    "start": "node update_status.js"
+    "start": "node generate_profile.js",
+    "status": "node update_status.js",
+    "preview": "node -e \"import('./themes.js').then(m => { const d = Math.floor((Date.now() - new Date(Date.UTC(new Date().getUTCFullYear(),0,1)))/86400000); const t = m.themes[d % m.themes.length]; console.log('Day ' + d + ' — ' + t.name + ' (' + t.principle + ')'); })\""
   },
-  "author": "Rafael",
+  "author": "Rafael Viera (Aether)",
   "license": "MIT"
 }
