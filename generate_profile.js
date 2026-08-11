@@ -12,7 +12,8 @@ const USERNAME = 'rviers';
 const now = new Date();
 const startOfYear = new Date(Date.UTC(now.getUTCFullYear(), 0, 1));
 const dayOfYear = Math.floor((now - startOfYear) / 86400000);
-const themeIndex = dayOfYear % themes.length;
+// Random theme selection
+const themeIndex = Math.floor(Math.random() * themes.length);
 const theme = themes[themeIndex];
 const c = theme.colors;
 
@@ -357,7 +358,20 @@ async function main() {
   fs.writeFileSync('aether-status.svg', svg);
   console.log(`✅ aether-status.svg generated (repo: ${activity.repo})`);
 
-  // 3. Log evolution
+  // 3. Save copy to history folder
+  const dateStr = now.toISOString().split('T')[0];
+  const historyDir = `history/${dateStr}_${theme.id}`;
+  if (!fs.existsSync('history')) {
+    fs.mkdirSync('history', { recursive: true });
+  }
+  if (!fs.existsSync(historyDir)) {
+    fs.mkdirSync(historyDir, { recursive: true });
+  }
+  fs.writeFileSync(`${historyDir}/README.md`, readme);
+  fs.writeFileSync(`${historyDir}/aether-status.svg`, svg);
+  console.log(`✅ Saved copy to ${historyDir}/`);
+
+  // 4. Log evolution
   logEvolution();
   console.log('✅ design_evolution.md updated');
 
