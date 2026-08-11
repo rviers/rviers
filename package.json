@@ -1,0 +1,12 @@
+{
+  "name": "rviers",
+  "version": "1.0.0",
+  "description": "Dynamic GitHub Profile README",
+  "main": "update_status.js",
+  "type": "module",
+  "scripts": {
+    "start": "node update_status.js"
+  },
+  "author": "Rafael",
+  "license": "MIT"
+}
