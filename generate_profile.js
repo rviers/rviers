@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 // AETHER DAILY 3D AESTHETIC PROFILE GENERATOR
-// Expressive 3D layout generator with cache buster and daily rotation logs.
+// Expressive 3D layout generator with self-contained SVG header & status log.
 // ═══════════════════════════════════════════════════════════════════════
 
 import fs from 'fs';
@@ -21,7 +21,64 @@ const c = theme.colors;
 console.log(`\n🎨 Day ${dayOfYear} — 3D Theme: ${theme.name}`);
 console.log(`   Principle: ${theme.principle}\n`);
 
-// 1. Generate 3D Aesthetic SVG Header Status Log
+// 1. Generate 3D Hero Header SVG locally (Self-contained, 0 Vercel dependency)
+function generate3DHeaderSVG() {
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="230">
+  <defs>
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#${c.bg}" />
+      <stop offset="50%" stop-color="#${c.surface}" />
+      <stop offset="100%" stop-color="#${c.border}" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#${c.text}" />
+      <stop offset="100%" stop-color="#${c.accent}" />
+    </linearGradient>
+    <filter id="glowHeader">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="230" rx="16" fill="url(#headerBg)" stroke="#${c.border}" stroke-width="2"/>
+  
+  <!-- Wave Math Pattern Background -->
+  <path d="M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z" fill="#${c.accent}" fill-opacity="0.15">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z;
+              M 0 160 Q 225 200 450 160 T 900 160 L 900 230 L 0 230 Z;
+              M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z" />
+  </path>
+  <path d="M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z" fill="#${c.secondary}" fill-opacity="0.25">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z;
+              M 0 195 Q 225 155 450 195 T 900 195 L 900 230 L 0 230 Z;
+              M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z" />
+  </path>
+
+  <!-- 3D Geometric Floating Cubes -->
+  <g opacity="0.35" transform="translate(680, 20)">
+    <polygon points="60,20 110,45 60,70 10,45" fill="#${c.accent}">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="10,45 60,70 60,120 10,95" fill="#${c.secondary}">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="60,70 110,45 110,95 60,120" fill="#${c.border}">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+
+  <!-- Title & Description -->
+  <text x="450" y="95" font-family="'Fira Code', monospace" font-size="54" font-weight="900" fill="url(#textGrad)" text-anchor="middle" filter="url(#glowHeader)">R_VIERA</text>
+  <text x="450" y="140" font-family="'Fira Code', monospace" font-size="16" font-weight="bold" fill="#${c.accent}" text-anchor="middle" letter-spacing="2">3D DIGITAL CRAFTSMAN • SECURITY ARCHITECT • AI ENGINEER</text>
+</svg>`;
+}
+
+// 2. Generate 3D Dynamic SVG Log
 function generate3DSVGLog() {
   const timestamp = new Date().toISOString();
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
@@ -73,26 +130,25 @@ function generate3DSVGLog() {
   </text>
 
   <text x="55" y="180" font-family="'Fira Code', monospace" font-size="12" fill="#${c.secondary}" filter="url(#glow3D)">
-    ⚡ Autonomously Rotated & Rendered by Aether • ${timestamp}
+    Autonomously Rotated &amp; Rendered by Aether ${timestamp}
   </text>
 </svg>`;
 }
 
-// 2. Generate 3D Aesthetic README.md
+// 3. Generate 3D Aesthetic README.md
 function generateReadme() {
   const cacheBuster = Date.now();
-  const dateStr = new Date().toISOString().split('T')[0];
 
   return `<!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- AETHER 3D AESTHETIC DESIGN ACADEMY -->
 <!-- Theme: ${theme.name} | Principle: ${theme.principle} -->
-<!-- Day ${dayOfYear} ${now.getFullYear()} Generated: ${now.toISOString()} -->
+<!-- Day ${dayOfYear} ${now.getFullYear()} | Generated: ${now.toISOString()} -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ─── 3D HERO HEADER ─── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:${c.bg},50:${c.surface},100:${c.border}&height=230&section=header&text=R_VIERA&fontSize=70&fontColor=${c.text}&fontAlignY=35&desc=3D%20Digital%20Craftsman%20%E2%80%A2%20Security%20Architect%20%E2%80%A2%20AI%20Engineer&descSize=16&descColor=${c.accent}&descAlignY=55&animation=fadeIn" width="100%" alt="3D Header"/>
+<img src="header.svg?v=${cacheBuster}" width="100%" alt="3D Header"/>
 
 <br/>
 
@@ -141,7 +197,7 @@ function generateReadme() {
 <table>
 <tr>
 <td align="center" width="140"><b>Languages</b></td>
-<td align="center" width="140"><b>Frontend & 3D</b></td>
+<td align="center" width="140"><b>Frontend 3D</b></td>
 <td align="center" width="140"><b>Backend</b></td>
 <td align="center" width="140"><b>Infrastructure</b></td>
 <td align="center" width="140"><b>Security</b></td>
@@ -173,7 +229,7 @@ function generateReadme() {
 ## \`▸ git --stats\`
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&hide_border=true&bg_color=${c.bg}&title_color=${c.text}&text_color=${c.textMuted}&icon_color=${c.secondary}&ring_color=${c.accent}&border_radius=16&include_all_commits=true&count_private=true" onerror="this.onerror=null; this.src='https://github-readme-stats-fast.vercel.app/api?username=${USERNAME}&show_icons=true&hide_border=true&bg_color=${c.bg}&title_color=${c.text}&text_color=${c.textMuted}&icon_color=${c.secondary}&ring_color=${c.accent}&border_radius=16';"/>
+  <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=${USERNAME}&show_icons=true&hide_border=true&bg_color=${c.bg}&title_color=${c.text}&text_color=${c.textMuted}&icon_color=${c.secondary}&ring_color=${c.accent}&border_radius=16&include_all_commits=true&count_private=true"/>
   &nbsp;&nbsp;
   <img height="180" src="https://streak-stats.demolab.com?user=${USERNAME}&hide_border=true&background=${c.bg}&ring=${c.accent}&fire=${c.warning}&currStreakLabel=${c.text}&sideLabels=${c.textMuted}&dates=${c.textMuted}&border_radius=16"/>
 </div>
@@ -210,9 +266,11 @@ function generateReadme() {
 }
 
 // Execute Generation & History Backup
+const headerContent = generate3DHeaderSVG();
 const svgContent = generate3DSVGLog();
 const readmeContent = generateReadme();
 
+fs.writeFileSync(path.join(REPO_DIR, 'header.svg'), headerContent);
 fs.writeFileSync(path.join(REPO_DIR, 'aether-status.svg'), svgContent);
 fs.writeFileSync(path.join(REPO_DIR, 'README.md'), readmeContent);
 
@@ -222,9 +280,11 @@ const historyDir = path.join(REPO_DIR, 'history', `${dateStr}_${theme.id}`);
 if (!fs.existsSync(historyDir)) {
   fs.mkdirSync(historyDir, { recursive: true });
 }
+fs.writeFileSync(path.join(historyDir, 'header.svg'), headerContent);
 fs.writeFileSync(path.join(historyDir, 'aether-status.svg'), svgContent);
 fs.writeFileSync(path.join(historyDir, 'README.md'), readmeContent);
 
+console.log(`✅ 3D Header SVG generated (header.svg)`);
 console.log(`✅ 3D README.md generated`);
 console.log(`✅ aether-status.svg 3D generated`);
 console.log(`✅ Saved copy to ${historyDir}`);
