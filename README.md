@@ -1,43 +1,54 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- R_VIERA ARCHITECTURE LOG -->
-<!-- Clean, Minimal, Non-Slop GitHub Profile -->
+<!-- R_VIERA — SYSTEM ARCHITECTURE & SECURITY LOG -->
+<!-- Industrial Brutalism x Premium Utilitarian Minimalism -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-# `R_VIERA`
-
-*Systems Architect & Security Engineer*
-
-<br/>
-
-```yaml
-system:
-  kernel: Linux
-  role: Security Architect / Infrastructure Engineer
-  focus: Distributed Systems, Low-Level Security, Automation
+```
+  ┌─────────────────────────────────────────────────────────────┐
+  │  R_VIERA // SYSTEM ARCHITECT & SECURITY ENGINEER            │
+  │  OPERATIONAL STATUS: ACTIVE // NODE: INDONESIA              │
+  └─────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
 <br/>
 
-## `▸ stack`
+### `01 // SYSTEM MATRIX`
 
-- **Languages:** C, Go, Python, TypeScript, Rust
-- **Security & Ops:** Linux Hardening, Network Architecture, Docker, K8s
-- **Tooling:** Git, Vim/Neovim, Bash/Zsh
+```yaml
+core_identity:
+  operator: R_Viera
+  focus: Distributed Infrastructure, Offensive Pentesting, Low-Level Systems
+  architecture: Linux Kernel / Containerized Runtime / Micro-Services
+  philosophy: "Eliminate bloat. Code that isn't written has zero vulnerabilities."
+```
 
 <br/>
 
-## `▸ repositories`
+### `02 // TECHNICAL CAPABILITIES`
 
-- Active research and personal projects maintained directly via terminal.
+```
+[LANGUAGES]    ▸ C  •  Go  •  Python  •  TypeScript  •  Rust
+[SECURITY]     ▸ Network Recon  •  Exploit Research  •  Linux Hardening  •  C2 Infrastructure
+[INFRA]        ▸ Docker  •  Kubernetes  •  Cloudflare Engine  •  Bare-Metal Linux
+```
+
+<br/>
+
+### `03 // BLUEPRINTS & REPOSITORIES`
+
+| Directory | Type | Domain / Scope | Status |
+| :--- | :--- | :--- | :--- |
+| `rviers/rviers` | Profile | System Telemetry & Operational Interface | `STABLE` |
+| `AI Aether` | Core Agent | Custom Autonomous Assistant Infrastructure | `ACTIVE` |
 
 <br/>
 
 ---
 
 <div align="center">
-<sub>Maintained clean and direct.</sub>
+<sub><code>SYSTEM TELEMETRY LOG // MAINTAINED BY AETHER // ZERO WIDGET SLOP</code></sub>
 </div>
