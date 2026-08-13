@@ -85,3 +85,11 @@
 **Lesson:** Pastel accents (high lightness, medium chroma) on a low-chroma dark base. The lesson: controlling chroma independently of lightness is the mark of a skilled colorist. The accents feel bright and modern without being aggressive. This is the antidote to both boring greys and neon-slop.
 
 ---
+
+### Day 224 — 2026-08-13
+**Theme:** Slack Aubergine
+**Principle:** Professional Muted — Corporate Identity
+**Palette:** `#1a1d21` `#222529` `#35373b` `#4a154b` `#36c5f0`
+**Lesson:** Slack's aubergine (280° desaturated to ~15% chroma) demonstrates corporate color strategy. The lesson: professional palettes use lower saturation than consumer palettes. The muted purple signals creativity without being playful. The teal secondary adds just enough contrast for interactive elements.
+
+---
