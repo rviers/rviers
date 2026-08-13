@@ -93,3 +93,11 @@
 **Lesson:** Slack's aubergine (280° desaturated to ~15% chroma) demonstrates corporate color strategy. The lesson: professional palettes use lower saturation than consumer palettes. The muted purple signals creativity without being playful. The teal secondary adds just enough contrast for interactive elements.
 
 ---
+
+### Day 224 — 2026-08-13
+**Theme:** Tokyo Night
+**Principle:** Monochromatic Harmony
+**Palette:** `#1a1b27` `#24283b` `#414868` `#7aa2f7` `#bb9af7`
+**Lesson:** Uses a single hue family (blue 250°) with lightness variations. Purple at 280° acts as a near-analogous secondary. The lesson: restraint in hue selection forces mastery of the lightness dimension. Notice how depth is created entirely through value contrast, not hue contrast.
+
+---
