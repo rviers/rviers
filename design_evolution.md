@@ -77,3 +77,11 @@
 **Lesson:** Red (0°) through orange (30°) to pink (340°) — a tight analogous range on the warm side. The lesson: sunsets work as palettes because they compress the warm spectrum into a single view. The dark base grounds the warmth and prevents it from feeling overwhelming. Time-of-day palettes tap into deep emotional memory.
 
 ---
+
+### Day 224 — 2026-08-13
+**Theme:** Andromeda
+**Principle:** Chroma Control — Vivid on Muted
+**Palette:** `#23262e` `#2b2f3a` `#3b4048` `#00e8c6` `#ee5d43`
+**Lesson:** Pastel accents (high lightness, medium chroma) on a low-chroma dark base. The lesson: controlling chroma independently of lightness is the mark of a skilled colorist. The accents feel bright and modern without being aggressive. This is the antidote to both boring greys and neon-slop.
+
+---
