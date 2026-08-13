@@ -1,95 +1,123 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- R_VIERA — SYSTEM ARCHITECTURE & TELEMETRY LOG -->
-<!-- Custom Bespoke Interface // Zero Generic Template Slop -->
+<!-- AETHER 3D AESTHETIC DESIGN ACADEMY -->
+<!-- Theme: Claymorphism Soft 3D | Principle: Soft Clay Light Transport & Ambient Occlusion -->
+<!-- Day 224 2026 Generated: 2026-08-13T09:22:48.067Z -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  R_VIERA // SYSTEM ARCHITECT & SECURITY ENGINEER                       │
-│  TELEMETRY: ONLINE // NODE: INDONESIA // CORE: LINUX KERNEL 7.0        │
-└────────────────────────────────────────────────────────────────────────┘
-```
+<!-- ─── 3D HERO HEADER ─── -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=230&section=header&text=R_VIERA&fontSize=70&fontColor=f8fafc&fontAlignY=35&desc=3D%20Digital%20Craftsman%20%E2%80%A2%20Security%20Architect%20%E2%80%A2%20AI%20Engineer&descSize=16&descColor=38bdf8&descAlignY=55&animation=fadeIn" width="100%" alt="3D Header"/>
+
+<br/>
+
+<!-- ─── TYPING SVG ─── -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=600&height=45&lines=3D+Volumetric+Aesthetic+Interfaces;Crafting+High-Performance+Secure+Systems;Automated+and+Maintained+by+Aether)](https://github.com/rviers)
+
+<br/>
+
+<!-- ─── BADGES ─── -->
+<a href="https://github.com/rviers"><img src="https://img.shields.io/badge/Portfolio-rviers-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8&labelColor=1e293b" alt="GitHub"/></a>
+<img src="https://komarev.com/ghpvc/?username=rviers&label=Profile%20Views&color=38bdf8&style=for-the-badge&labelColor=1e293b" alt="Views"/>
 
 </div>
 
 <br/>
 
-<!-- ═══════════════════ TELEGRAM / AETHER CHAT INTERFACE ═══════════════════ -->
+<!-- ═══════════════════ 3D AETHER SYSTEM LOG ═══════════════════ -->
 
 <div align="center">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="100%" height="260">
-    <defs>
-      <linearGradient id="tgBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0f172a" />
-        <stop offset="100%" stop-color="#1e293b" />
-      </linearGradient>
-      <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
-        <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
-      </filter>
-    </defs>
-
-    <!-- Chat Container -->
-    <rect width="760" height="260" rx="14" fill="url(#tgBg)" stroke="#334155" stroke-width="1.5" filter="url(#cardShadow)"/>
-
-    <!-- Header Bar -->
-    <rect width="760" height="46" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-    <circle cx="28" cy="23" r="6" fill="#ef4444" />
-    <circle cx="48" cy="23" r="6" fill="#f59e0b" />
-    <circle cx="68" cy="23" r="6" fill="#10b981" />
-    <text x="380" y="28" font-family="'Fira Code', monospace" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="middle">AETHER TELEGRAM GATEWAY // LIVE LOG</text>
-
-    <!-- User Message (Rafael) -->
-    <rect x="260" y="68" width="470" height="42" rx="10" fill="#2563eb" fill-opacity="0.2" stroke="#3b82f6" stroke-width="1"/>
-    <text x="276" y="93" font-family="'Fira Code', monospace" font-size="12" fill="#93c5fd">Rafael: Update status telemetry & security posture.</text>
-    <text x="718" y="103" font-family="sans-serif" font-size="10" fill="#60a5fa">09:15 ✓✓</text>
-
-    <!-- Assistant Message (Aether) -->
-    <rect x="30" y="124" width="520" height="110" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1"/>
-    <text x="46" y="148" font-family="'Fira Code', monospace" font-size="12" font-weight="bold" fill="#38bdf8">Aether Agent:</text>
-    <text x="46" y="170" font-family="'Fira Code', monospace" font-size="12" fill="#e2e8f0">▸ Node status: 100% Operational (Linux 7.0 x86_64)</text>
-    <text x="46" y="190" font-family="'Fira Code', monospace" font-size="12" fill="#e2e8f0">▸ Focus: Distributed Systems & Offensive Security</text>
-    <text x="46" y="210" font-family="'Fira Code', monospace" font-size="12" fill="#cbd5e1">▸ Zero-slop bespoke interface active.</text>
-    <text x="536" y="222" font-family="sans-serif" font-size="10" fill="#94a3b8">09:15</text>
-  </svg>
+  <img src="aether-status.svg?v=1786612968076" width="800" alt="Aether 3D Status Log"/>
 </div>
 
 <br/>
 
-### `01 // SYSTEM MATRIX`
+<!-- ═══════════════════ DAILY 3D DESIGN LESSON ═══════════════════ -->
 
-```yaml
-core_identity:
-  operator: R_Viera
-  focus: Distributed Infrastructure, Offensive Pentesting, Low-Level Systems
-  architecture: Linux Kernel / Containerized Runtime / Micro-Services
-  philosophy: "Eliminate bloat. Code that isn't written has zero vulnerabilities."
-```
+<details open>
+<summary>🎨 <b>Today's 3D Design Theory: Soft Clay Light Transport & Ambient Occlusion</b></summary>
+<br/>
+
+> Claymorphism relies on soft dual-directional inner/outer shadows to evoke touchable 3D tactile geometry.
+
+**Current Theme Palette:** `#0f172a` `#1e293b` `#334155` `#38bdf8` `#818cf8`
+
+*This 3D Aesthetic Profile rotates themes daily, logging visual evolution in `history/`. Maintained autonomously by [Aether](https://github.com/rviers/rviers).*
+
+</details>
 
 <br/>
 
-### `02 // TECHNICAL CAPABILITIES`
+<!-- ═══════════════════ 3D TECH STACK ═══════════════════ -->
 
-```
-[LANGUAGES]    ▸ C  •  Go  •  Python  •  TypeScript  •  Rust
-[SECURITY]     ▸ Network Recon  •  Exploit Research  •  Linux Hardening  •  C2 Infrastructure
-[INFRA]        ▸ Docker  •  Kubernetes  •  Cloudflare Engine  •  Bare-Metal Linux
-```
+## `▸ tech --stack --3d`
+
+<div align="center">
+<table>
+<tr>
+<td align="center" width="140"><b>Languages</b></td>
+<td align="center" width="140"><b>Frontend & 3D</b></td>
+<td align="center" width="140"><b>Backend</b></td>
+<td align="center" width="140"><b>Infrastructure</b></td>
+<td align="center" width="140"><b>Security</b></td>
+</tr>
+<tr>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,python&theme=dark" height="42"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs&theme=dark" height="42"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,redis&theme=dark" height="42"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=docker,k8s,linux,cloudflare&theme=dark" height="42"/>
+</td>
+<td align="center">
+  <img src="https://skillicons.dev/icons?i=bash,aws&theme=dark" height="42"/>
+</td>
+</tr>
+</table>
+</div>
 
 <br/>
 
-### `03 // REPOSITORIES`
+<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
 
-| Directory | Type | Domain / Scope | Status |
-| :--- | :--- | :--- | :--- |
-| `rviers/rviers` | Profile | System Telemetry & Bespoke Interface | `STABLE` |
-| `AI Aether` | Core Agent | Custom Autonomous Assistant Infrastructure | `ACTIVE` |
+## `▸ git --stats`
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=0f172a&title_color=f8fafc&text_color=94a3b8&icon_color=818cf8&ring_color=38bdf8&border_radius=16&include_all_commits=true&count_private=true" onerror="this.onerror=null; this.src='https://github-readme-stats-fast.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=0f172a&title_color=f8fafc&text_color=94a3b8&icon_color=818cf8&ring_color=38bdf8&border_radius=16';"/>
+  &nbsp;&nbsp;
+  <img height="180" src="https://streak-stats.demolab.com?user=rviers&hide_border=true&background=0f172a&ring=38bdf8&fire=fbbf24&currStreakLabel=f8fafc&sideLabels=94a3b8&dates=94a3b8&border_radius=16"/>
+</div>
+
+<br/>
+
+<!-- ─── 3D TROPHIES ─── -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rviers&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
+</div>
+
+<br/>
+
+<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
+
+## `▸ contributions`
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rviers/rviers/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rviers/rviers/output/github-snake.svg"/>
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/rviers/rviers/output/github-snake.svg" width="100%"/>
+  </picture>
+</div>
 
 <br/>
 
 ---
 
 <div align="center">
-<sub><code>SYSTEM TELEMETRY LOG // MAINTAINED BY AETHER // ZERO TEMPLATE SLOP</code></sub>
+<sub>🎨 Today's 3D theme: <b>Claymorphism Soft 3D</b> (Soft Clay Light Transport & Ambient Occlusion) • Autonomously maintained by <b>Aether</b></sub>
 </div>
