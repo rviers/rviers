@@ -185,7 +185,7 @@ function generateReadme() {
 <!-- ═══════════════════ AETHER LOG ═══════════════════ -->
 
 <div align="center">
-  <img src="aether-status.svg" width="800" alt="Aether System Log"/>
+  <img src="aether-status.svg?v=${Date.now()}" width="800" alt="Aether System Log"/>
 </div>
 
 <br/>
