@@ -148,7 +148,7 @@ function generateReadme() {
 <div align="center">
 
 <!-- ─── 3D HERO HEADER ─── -->
-<img src="header.svg?v=${cacheBuster}" width="100%" alt="3D Header"/>
+<img src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/header.svg?v=${cacheBuster}" width="100%" alt="3D Header"/>
 
 <br/>
 
@@ -168,7 +168,7 @@ function generateReadme() {
 <!-- ═══════════════════ 3D AETHER SYSTEM LOG ═══════════════════ -->
 
 <div align="center">
-  <img src="aether-status.svg?v=${cacheBuster}" width="800" alt="Aether 3D Status Log"/>
+  <img src="https://raw.githubusercontent.com/${USERNAME}/${USERNAME}/main/aether-status.svg?v=${cacheBuster}" width="800" alt="Aether 3D Status Log"/>
 </div>
 
 <br/>
@@ -232,13 +232,6 @@ function generateReadme() {
   <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=${USERNAME}&show_icons=true&hide_border=true&bg_color=${c.bg}&title_color=${c.text}&text_color=${c.textMuted}&icon_color=${c.secondary}&ring_color=${c.accent}&border_radius=16&include_all_commits=true&count_private=true"/>
   &nbsp;&nbsp;
   <img height="180" src="https://streak-stats.demolab.com?user=${USERNAME}&hide_border=true&background=${c.bg}&ring=${c.accent}&fire=${c.warning}&currStreakLabel=${c.text}&sideLabels=${c.textMuted}&dates=${c.textMuted}&border_radius=16"/>
-</div>
-
-<br/>
-
-<!-- ─── 3D TROPHIES ─── -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=${theme.trophyTheme}&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
 </div>
 
 <br/>

@@ -1,13 +1,13 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- AETHER 3D AESTHETIC DESIGN ACADEMY -->
 <!-- Theme: Obsidian 3D Glass | Principle: Subsurface Scattering & Frosted Transmission -->
-<!-- Day 224 2026 | Generated: 2026-08-13T09:30:02.935Z -->
+<!-- Day 224 2026 | Generated: 2026-08-13T09:33:41.156Z -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ─── 3D HERO HEADER ─── -->
-<img src="header.svg?v=1786613402940" width="100%" alt="3D Header"/>
+<img src="https://raw.githubusercontent.com/rviers/rviers/main/header.svg?v=1786613621160" width="100%" alt="3D Header"/>
 
 <br/>
 
@@ -27,7 +27,7 @@
 <!-- ═══════════════════ 3D AETHER SYSTEM LOG ═══════════════════ -->
 
 <div align="center">
-  <img src="aether-status.svg?v=1786613402940" width="800" alt="Aether 3D Status Log"/>
+  <img src="https://raw.githubusercontent.com/rviers/rviers/main/aether-status.svg?v=1786613621160" width="800" alt="Aether 3D Status Log"/>
 </div>
 
 <br/>
@@ -91,13 +91,6 @@
   <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=09090b&title_color=fafafa&text_color=71717a&icon_color=e4e4e7&ring_color=a1a1aa&border_radius=16&include_all_commits=true&count_private=true"/>
   &nbsp;&nbsp;
   <img height="180" src="https://streak-stats.demolab.com?user=rviers&hide_border=true&background=09090b&ring=a1a1aa&fire=eab308&currStreakLabel=fafafa&sideLabels=71717a&dates=71717a&border_radius=16"/>
-</div>
-
-<br/>
-
-<!-- ─── 3D TROPHIES ─── -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rviers&theme=dark&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
 </div>
 
 <br/>
