@@ -10,6 +10,16 @@ import { themes } from './themes.js';
 const USERNAME = 'rviers';
 const REPO_DIR = '/home/rafael/AI Aether/7.sandbox/rviers';
 
+function escapeXML(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 // Determine today's theme
 const now = new Date();
 const startOfYear = new Date(Date.UTC(now.getUTCFullYear(), 0, 1));
@@ -122,15 +132,15 @@ function generate3DSVGLog() {
 
   <!-- System Information Rows -->
   <text x="55" y="120" font-family="'Fira Code', monospace" font-size="16" fill="#${c.text}" font-weight="bold">
-    Theme: <tspan fill="#${c.accent}">${theme.name}</tspan> [3D ${theme.principle}]
+    Theme: <tspan fill="#${c.accent}">${escapeXML(theme.name)}</tspan> [3D ${escapeXML(theme.principle)}]
   </text>
 
   <text x="55" y="150" font-family="'Fira Code', monospace" font-size="14" fill="#${c.textMuted}">
-    Lesson: ${theme.lesson}
+    Lesson: ${escapeXML(theme.lesson)}
   </text>
 
   <text x="55" y="180" font-family="'Fira Code', monospace" font-size="12" fill="#${c.secondary}" filter="url(#glow3D)">
-    Autonomously Rotated &amp; Rendered by Aether ${timestamp}
+    Autonomously Rotated &amp; Rendered by Aether ${escapeXML(timestamp)}
   </text>
 </svg>`;
 }

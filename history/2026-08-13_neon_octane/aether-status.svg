@@ -39,7 +39,7 @@
 
   <!-- System Information Rows -->
   <text x="55" y="120" font-family="'Fira Code', monospace" font-size="16" fill="#ffffff" font-weight="bold">
-    Theme: <tspan fill="#ff007f">Neon Octane Render</tspan> [3D Ray-traced Photoreal Glow & Emissive Luminescence]
+    Theme: <tspan fill="#ff007f">Neon Octane Render</tspan> [3D Ray-traced Photoreal Glow &amp; Emissive Luminescence]
   </text>
 
   <text x="55" y="150" font-family="'Fira Code', monospace" font-size="14" fill="#737373">
@@ -47,6 +47,6 @@
   </text>
 
   <text x="55" y="180" font-family="'Fira Code', monospace" font-size="12" fill="#7928ca" filter="url(#glow3D)">
-    Autonomously Rotated &amp; Rendered by Aether 2026-08-13T09:36:38.005Z
+    Autonomously Rotated &amp; Rendered by Aether 2026-08-13T09:48:09.955Z
   </text>
 </svg>
