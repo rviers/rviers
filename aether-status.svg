@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#09090b" />
-      <stop offset="100%" stop-color="#18181b" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#141414" />
     </linearGradient>
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a1a1aa" />
-      <stop offset="100%" stop-color="#e4e4e7" />
+      <stop offset="0%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#7928ca" />
     </linearGradient>
     <filter id="shadow3D" x="-10%" y="-10%" width="130%" height="130%">
       <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
@@ -21,32 +21,32 @@
   </defs>
 
   <!-- Background Canvas -->
-  <rect width="800" height="240" rx="20" fill="url(#bgGrad)" stroke="#27272a" stroke-width="2"/>
+  <rect width="800" height="240" rx="20" fill="url(#bgGrad)" stroke="#262626" stroke-width="2"/>
 
   <!-- 3D Decorative Floating Cubes -->
   <g opacity="0.25">
-    <path d="M 700 40 L 740 60 L 700 80 L 660 60 Z" fill="#a1a1aa"/>
-    <path d="M 660 60 L 700 80 L 700 120 L 660 100 Z" fill="#e4e4e7"/>
-    <path d="M 700 80 L 740 60 L 740 100 L 700 120 Z" fill="#27272a"/>
+    <path d="M 700 40 L 740 60 L 700 80 L 660 60 Z" fill="#ff007f"/>
+    <path d="M 660 60 L 700 80 L 700 120 L 660 100 Z" fill="#7928ca"/>
+    <path d="M 700 80 L 740 60 L 740 100 L 700 120 Z" fill="#262626"/>
   </g>
 
   <!-- 3D Glass Card Container -->
-  <rect x="30" y="30" width="740" height="180" rx="16" fill="#18181b" fill-opacity="0.7" stroke="url(#accentGrad)" stroke-width="2" filter="url(#shadow3D)"/>
+  <rect x="30" y="30" width="740" height="180" rx="16" fill="#141414" fill-opacity="0.7" stroke="url(#accentGrad)" stroke-width="2" filter="url(#shadow3D)"/>
 
   <!-- Title Badge -->
   <rect x="55" y="55" width="180" height="32" rx="8" fill="url(#accentGrad)"/>
-  <text x="145" y="76" font-family="'Fira Code', monospace" font-size="13" font-weight="bold" fill="#09090b" text-anchor="middle">AETHER 3D LOG</text>
+  <text x="145" y="76" font-family="'Fira Code', monospace" font-size="13" font-weight="bold" fill="#050505" text-anchor="middle">AETHER 3D LOG</text>
 
   <!-- System Information Rows -->
-  <text x="55" y="120" font-family="'Fira Code', monospace" font-size="16" fill="#fafafa" font-weight="bold">
-    Theme: <tspan fill="#a1a1aa">Obsidian 3D Glass</tspan> [3D Subsurface Scattering & Frosted Transmission]
+  <text x="55" y="120" font-family="'Fira Code', monospace" font-size="16" fill="#ffffff" font-weight="bold">
+    Theme: <tspan fill="#ff007f">Neon Octane Render</tspan> [3D Ray-traced Photoreal Glow & Emissive Luminescence]
   </text>
 
-  <text x="55" y="150" font-family="'Fira Code', monospace" font-size="14" fill="#71717a">
-    Lesson: Dark frosted glass transmits light selectively, creating layered focal depth behind foreground UI element structures.
+  <text x="55" y="150" font-family="'Fira Code', monospace" font-size="14" fill="#737373">
+    Lesson: Ray-traced emissive lighting maps vibrant light bloom onto dark matte materials for cinematic pop.
   </text>
 
-  <text x="55" y="180" font-family="'Fira Code', monospace" font-size="12" fill="#e4e4e7" filter="url(#glow3D)">
-    Autonomously Rotated &amp; Rendered by Aether 2026-08-13T09:33:41.160Z
+  <text x="55" y="180" font-family="'Fira Code', monospace" font-size="12" fill="#7928ca" filter="url(#glow3D)">
+    Autonomously Rotated &amp; Rendered by Aether 2026-08-13T09:36:38.005Z
   </text>
 </svg>

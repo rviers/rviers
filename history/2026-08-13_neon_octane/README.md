@@ -1,13 +1,13 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- AETHER 3D AESTHETIC DESIGN ACADEMY -->
 <!-- Theme: Neon Octane Render | Principle: Ray-traced Photoreal Glow & Emissive Luminescence -->
-<!-- Day 224 2026 Generated: 2026-08-13T03:33:08.268Z -->
+<!-- Day 224 2026 | Generated: 2026-08-13T09:36:38.001Z -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <!-- ─── 3D HERO HEADER ─── -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:141414,100:262626&height=230&section=header&text=R_VIERA&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=3D%20Digital%20Craftsman%20%E2%80%A2%20Security%20Architect%20%E2%80%A2%20AI%20Engineer&descSize=16&descColor=ff007f&descAlignY=55&animation=fadeIn" width="100%" alt="3D Header"/>
+<img src="https://raw.githubusercontent.com/rviers/rviers/main/header.svg?v=1786613798005" width="100%" alt="3D Header"/>
 
 <br/>
 
@@ -27,7 +27,7 @@
 <!-- ═══════════════════ 3D AETHER SYSTEM LOG ═══════════════════ -->
 
 <div align="center">
-  <img src="aether-status.svg?v=1786591988272" width="800" alt="Aether 3D Status Log"/>
+  <img src="https://raw.githubusercontent.com/rviers/rviers/main/aether-status.svg?v=1786613798005" width="800" alt="Aether 3D Status Log"/>
 </div>
 
 <br/>
@@ -56,7 +56,7 @@
 <table>
 <tr>
 <td align="center" width="140"><b>Languages</b></td>
-<td align="center" width="140"><b>Frontend & 3D</b></td>
+<td align="center" width="140"><b>Frontend 3D</b></td>
 <td align="center" width="140"><b>Backend</b></td>
 <td align="center" width="140"><b>Infrastructure</b></td>
 <td align="center" width="140"><b>Security</b></td>
@@ -88,16 +88,9 @@
 ## `▸ git --stats`
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=050505&title_color=ffffff&text_color=737373&icon_color=7928ca&ring_color=ff007f&border_radius=16&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=rviers&show_icons=true&hide_border=true&bg_color=050505&title_color=ffffff&text_color=737373&icon_color=7928ca&ring_color=ff007f&border_radius=16&include_all_commits=true&count_private=true"/>
   &nbsp;&nbsp;
   <img height="180" src="https://streak-stats.demolab.com?user=rviers&hide_border=true&background=050505&ring=ff007f&fire=ffcf00&currStreakLabel=ffffff&sideLabels=737373&dates=737373&border_radius=16"/>
-</div>
-
-<br/>
-
-<!-- ─── 3D TROPHIES ─── -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rviers&theme=gruvbox&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" alt="Trophies"/>
 </div>
 
 <br/>
