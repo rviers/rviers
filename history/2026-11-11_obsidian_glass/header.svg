@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="230">
+  <defs>
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="50%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#27272a" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fafafa" />
+      <stop offset="100%" stop-color="#a1a1aa" />
+    </linearGradient>
+    <filter id="glowHeader">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="230" rx="16" fill="url(#headerBg)" stroke="#27272a" stroke-width="2"/>
+  
+  <!-- Wave Math Pattern Background -->
+  <path d="M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z" fill="#a1a1aa" fill-opacity="0.15">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z;
+              M 0 160 Q 225 200 450 160 T 900 160 L 900 230 L 0 230 Z;
+              M 0 170 Q 225 120 450 170 T 900 170 L 900 230 L 0 230 Z" />
+  </path>
+  <path d="M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z" fill="#e4e4e7" fill-opacity="0.25">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z;
+              M 0 195 Q 225 155 450 195 T 900 195 L 900 230 L 0 230 Z;
+              M 0 185 Q 225 145 450 185 T 900 185 L 900 230 L 0 230 Z" />
+  </path>
+
+  <!-- 3D Geometric Floating Cubes -->
+  <g opacity="0.35" transform="translate(680, 20)">
+    <polygon points="60,20 110,45 60,70 10,45" fill="#a1a1aa">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="10,45 60,70 60,120 10,95" fill="#e4e4e7">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+    <polygon points="60,70 110,45 110,95 60,120" fill="#27272a">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="4s" repeatCount="indefinite" />
+    </polygon>
+  </g>
+
+  <!-- Title & Description -->
+  <text x="450" y="95" font-family="'Fira Code', monospace" font-size="54" font-weight="900" fill="url(#textGrad)" text-anchor="middle" filter="url(#glowHeader)">R_VIERA</text>
+  <text x="450" y="140" font-family="'Fira Code', monospace" font-size="16" font-weight="bold" fill="#a1a1aa" text-anchor="middle" letter-spacing="2">3D DIGITAL CRAFTSMAN • SECURITY ARCHITECT • AI ENGINEER</text>
+</svg>
